@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CatViewController.h
 //  HoustoniOSJune2016
 //
 //  Created by Efrain Ayllon on 6/13/16.
@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CatViewController : UIViewController
+{
+    
+}
+
 
 
 @end
-

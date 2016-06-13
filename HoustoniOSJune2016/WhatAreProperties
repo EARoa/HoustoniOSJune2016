@@ -1,0 +1,44 @@
+
+
+
+Tree:
+Type
+Age
+NumberOfBranches
+Height
+Width
+TypeOfLeaves
+ShapeofLeaves
+Color
+Species
+
+
+Person:
+FirstName: John
+LastName: Doe
+MiddleName: Alex
+Age
+Height
+Weight
+BloodType
+Occupation
+
+
+
+Animal:
+sleep
+eat
+
+Dog: Animal
+
+sleep
+eat
+bark
+
+
+
+Naming your view controller:
+
+CatViewController // RIGHT
+
+catviewcontroller // WRONG

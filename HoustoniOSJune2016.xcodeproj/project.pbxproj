@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		109C71881D0F09B80007F64C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 109C71871D0F09B80007F64C /* main.m */; };
 		109C718B1D0F09B90007F64C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109C718A1D0F09B90007F64C /* AppDelegate.m */; };
-		109C718E1D0F09B90007F64C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109C718D1D0F09B90007F64C /* ViewController.m */; };
 		109C71911D0F09B90007F64C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109C718F1D0F09B90007F64C /* Main.storyboard */; };
 		109C71931D0F09B90007F64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109C71921D0F09B90007F64C /* Assets.xcassets */; };
 		109C71961D0F09B90007F64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109C71941D0F09B90007F64C /* LaunchScreen.storyboard */; };
+		109C71A01D0F109D0007F64C /* WhatAreProperties in Resources */ = {isa = PBXBuildFile; fileRef = 109C719F1D0F109D0007F64C /* WhatAreProperties */; };
+		109C71A91D0F16CF0007F64C /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109C71A81D0F16CF0007F64C /* CatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		109C71871D0F09B80007F64C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		109C71891D0F09B80007F64C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		109C718A1D0F09B90007F64C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		109C718C1D0F09B90007F64C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		109C718D1D0F09B90007F64C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		109C71901D0F09B90007F64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		109C71921D0F09B90007F64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		109C71951D0F09B90007F64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		109C71971D0F09B90007F64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109C719F1D0F109D0007F64C /* WhatAreProperties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WhatAreProperties; sourceTree = "<group>"; };
+		109C71A71D0F16CF0007F64C /* CatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatViewController.h; sourceTree = "<group>"; };
+		109C71A81D0F16CF0007F64C /* CatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,9 @@
 		109C71851D0F09B80007F64C /* HoustoniOSJune2016 */ = {
 			isa = PBXGroup;
 			children = (
+				109C719D1D0F10060007F64C /* Week 1 */,
 				109C71891D0F09B80007F64C /* AppDelegate.h */,
 				109C718A1D0F09B90007F64C /* AppDelegate.m */,
-				109C718C1D0F09B90007F64C /* ViewController.h */,
-				109C718D1D0F09B90007F64C /* ViewController.m */,
 				109C718F1D0F09B90007F64C /* Main.storyboard */,
 				109C71921D0F09B90007F64C /* Assets.xcassets */,
 				109C71941D0F09B90007F64C /* LaunchScreen.storyboard */,
@@ -77,6 +78,24 @@
 				109C71871D0F09B80007F64C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		109C719D1D0F10060007F64C /* Week 1 */ = {
+			isa = PBXGroup;
+			children = (
+				109C719E1D0F10160007F64C /* Outlets */,
+			);
+			name = "Week 1";
+			sourceTree = "<group>";
+		};
+		109C719E1D0F10160007F64C /* Outlets */ = {
+			isa = PBXGroup;
+			children = (
+				109C719F1D0F109D0007F64C /* WhatAreProperties */,
+				109C71A71D0F16CF0007F64C /* CatViewController.h */,
+				109C71A81D0F16CF0007F64C /* CatViewController.m */,
+			);
+			name = Outlets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +129,7 @@
 				TargetAttributes = {
 					109C71821D0F09B80007F64C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3V8KXS5ZB4;
 					};
 				};
 			};
@@ -138,6 +158,7 @@
 			files = (
 				109C71961D0F09B90007F64C /* LaunchScreen.storyboard in Resources */,
 				109C71931D0F09B90007F64C /* Assets.xcassets in Resources */,
+				109C71A01D0F109D0007F64C /* WhatAreProperties in Resources */,
 				109C71911D0F09B90007F64C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				109C718E1D0F09B90007F64C /* ViewController.m in Sources */,
+				109C71A91D0F16CF0007F64C /* CatViewController.m in Sources */,
 				109C718B1D0F09B90007F64C /* AppDelegate.m in Sources */,
 				109C71881D0F09B80007F64C /* main.m in Sources */,
 			);
@@ -265,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HoustoniOSJune2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.earoa.HoustoniOSJune2016;
@@ -276,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HoustoniOSJune2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.earoa.HoustoniOSJune2016;
